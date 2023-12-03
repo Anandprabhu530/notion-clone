@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .custom-border {
+    @apply border-2 rounded-lg border-[#dcdddb] py-1 px-[6px] text-sm hover:bg-[#dcdddb];
+  }
+
+  .custom-underline {
+    @apply hover:text-blue-500 hover:underline underline-offset-1 text-slate-500 cursor-pointer;
+  }
+}
